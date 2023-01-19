@@ -23,7 +23,7 @@ public class TestController {
 	@ApiOperation(value = "Get the Name", response = String.class)
 	@GetMapping("/getName")
 	public ResponseEntity<String> getName() {
-		return ResponseEntity.ok().body("Charan");
+		return ResponseEntity.ok().body("Charan H C");
 	}
 
 	@ApiOperation(value = "Update the Name", response = ResponseEntity.class)
